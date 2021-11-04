@@ -1,0 +1,33 @@
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/torch/nn/modules/loss.py:431: UserWarning: Using a target size (torch.Size([1, 1])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+num_users:6041
+num_items:3953
+epoch 0, train loss is 1.1814473769068516, val mse is 0.9727010280981099
+epoch 1, train loss is 0.7814960519451092, val mse is 0.8506926613553408
+epoch 2, train loss is 0.6129986583874001, val mse is 0.8667956008519201
+epoch 3, train loss is 0.5073466879218254, val mse is 0.9218610831291589
+epoch 4, train loss is 0.4391019618398634, val mse is 0.9872638161454085
+Traceback (most recent call last):
+  File "main.py", line 84, in <module>
+    mse = mean_squared_error(np.array(labels), np.array(predicts))
+  File "/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/sklearn/metrics/_regression.py", line 424, in mean_squared_error
+    y_true, y_pred, multioutput
+  File "/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/sklearn/metrics/_regression.py", line 91, in _check_reg_targets
+    y_pred = check_array(y_pred, ensure_2d=False, dtype=dtype)
+  File "/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/sklearn/utils/validation.py", line 792, in check_array
+    _assert_all_finite(array, allow_nan=force_all_finite == "allow-nan")
+  File "/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/sklearn/utils/validation.py", line 116, in _assert_all_finite
+    type_err, msg_dtype if msg_dtype is not None else X.dtype
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').

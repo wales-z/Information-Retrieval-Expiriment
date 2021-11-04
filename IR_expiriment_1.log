@@ -1,0 +1,15 @@
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+num_users:6041
+num_items:3953
+epoch 0, train loss is 1.2780104708039794, val mse is 1.2780204954335752
+epoch 1, train loss is 1.2676027809717079, val mse is 1.2774662008292157
+epoch 2, train loss is 1.256690393750651, val mse is 1.2757500663896206
+epoch 3, train loss is 1.2438850724625683, val mse is 1.27123097584838
+epoch 4, train loss is 1.226661361731056, val mse is 1.260693724610544
+epoch 5, train loss is 1.2005748706388613, val mse is 1.2387329072011324
+epoch 6, train loss is 1.159771966145338, val mse is 1.1998879700427882
+epoch 7, train loss is 1.1019645754130991, val mse is 1.1459865250903924
+epoch 8, train loss is 1.0348866011961306, val mse is 1.0887472704202072
+epoch 9, train loss is 0.9707623609122211, val mse is 1.0379418999942684
+test mse loss:1.0379418999942682
