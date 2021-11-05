@@ -18,7 +18,7 @@ UESTC，信息检索课程实验
 
 - IR_expiriment_1.log，添加l2正则化后，10个epoch的结果
 
-- IR_expiriment_1.log，添加l2正则化后，100个epoch的结果（实验还没跑完，所以是空的）
+- IR_expiriment_1.log，添加l2正则化后，20个epoch的结果（实验还没跑完，所以是空的）
 
 - ml-1m：MovieLens-1M数据集。
 

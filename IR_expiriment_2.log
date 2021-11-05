@@ -1,0 +1,26 @@
+/home/dou/anaconda3/envs/catn/lib/python3.7/site-packages/pandas/util/_decorators.py:311: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  return func(*args, **kwargs)
+num_users:6041
+num_items:3953
+epoch 0, train loss is 1.281113437920517, val mse is 1.278763383323791
+epoch 1, train loss is 1.2704494717970831, val mse is 1.2777518988011778
+epoch 2, train loss is 1.2588381580691248, val mse is 1.2749385145336596
+epoch 3, train loss is 1.2443771169299493, val mse is 1.2679575756630435
+epoch 4, train loss is 1.2235835195000528, val mse is 1.2523503375057863
+epoch 5, train loss is 1.1909333053568751, val mse is 1.221865548452232
+epoch 6, train loss is 1.1414930799351717, val mse is 1.17374341986072
+epoch 7, train loss is 1.0781253431293996, val mse is 1.1160283915430658
+epoch 8, train loss is 1.0125102612680126, val mse is 1.0613370613324264
+epoch 9, train loss is 0.9534099266382701, val mse is 1.0147821570212632
+epoch 10, train loss is 0.9027538684282321, val mse is 0.9767039096323312
+epoch 11, train loss is 0.860121426443635, val mse is 0.9462512008667445
+epoch 12, train loss is 0.8244295780955853, val mse is 0.922181928873517
+epoch 13, train loss is 0.7941407081771413, val mse is 0.9030225697444831
+epoch 14, train loss is 0.7677449353452572, val mse is 0.8875524266855107
+epoch 15, train loss is 0.7441190803428739, val mse is 0.8747631642931112
+epoch 16, train loss is 0.7224996581005144, val mse is 0.8642669029277706
+epoch 17, train loss is 0.7023601060052758, val mse is 0.8553907375994615
+epoch 18, train loss is 0.6833785691471048, val mse is 0.8479255645792422
+epoch 19, train loss is 0.6653342201639545, val mse is 0.841675365994096
+test mse loss: 0.8425341654615343
+
